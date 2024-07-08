@@ -11,3 +11,6 @@ def test_入力値3の時出力値fizz():
 
 def test_入力値4の時出力値4():
     assert func(4) == 4
+
+def test_入力値5の時出力値buzz():
+    assert func(5) == 'buzz'
