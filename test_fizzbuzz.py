@@ -38,3 +38,6 @@ def test_入力値12の時出力値fizz():
 
 def test_入力値13の時出力値13():
     assert func(13) == 13
+
+def test_入力値14の時出力値14():
+    assert func(14) == 14
