@@ -8,3 +8,6 @@ def test_入力値2の時出力値2():
 
 def test_入力値3の時出力値fizz():
     assert func(3) == 'fizz'
+
+def test_入力値4の時出力値4():
+    assert func(4) == 4
