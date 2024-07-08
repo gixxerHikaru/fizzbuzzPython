@@ -1,5 +1,5 @@
 def func(x):
-    if(x == 5):
+    if(x % 5 == 0):
         print('buzz')
         return 'buzz'
     elif(x % 3 == 0):

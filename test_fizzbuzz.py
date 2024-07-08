@@ -26,3 +26,6 @@ def test_入力値8の時出力値8():
 
 def test_入力値9の時出力値fizz():
     assert func(9) == 'fizz'
+
+def test_入力値10の時出力値buzz():
+    assert func(10) == 'buzz'
